@@ -19,7 +19,7 @@ Explicação das colunas da tabela:
 - Sports: Participação em atividades esportivas 
 - Music: Participação em atividades musicais
 - Volunteering: Participação em atividades voluntárias
-- GPA: Uma métrica que avalia o desempenho acadêmico de um estudante (De 2 a 4)
+- GPA: Uma métrica que avalia o desempenho acadêmico de um estudante (De 0 a 4)
 - GradeClass: Classificação das notas dos alunos com base no GPA
     - 'A' (GPA >= 3.5)
     - 'B' (3.0 <= GPA < 3.5)
