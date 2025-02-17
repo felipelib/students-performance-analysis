@@ -75,6 +75,6 @@ Aulas Particulares:
 - Oferecer sessões de monitoria no contraturno.
 - Recomendar professores particulares de confiança.
 
-# Atividades Extracurriculares:
+Atividades Extracurriculares:
 - Expandir o leque de atividades oferecidas.
 - Oferecer horários flexíveis para participação.
