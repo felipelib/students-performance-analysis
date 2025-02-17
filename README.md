@@ -1,27 +1,31 @@
 # Análise de Desempenho Acadêmico de Estudantes
 Este projeto tem como objetivo analisar o desempenho acadêmico de estudantes do ensino médio, utilizando técnicas de análise exploratória de dados (EDA) e modelagem preditiva para identificar fatores que impactam o GPA (Grade Point Average) dos alunos.
 
-# Objetivo
-O objetivo principal é desenvolver um modelo de Machine Learning capaz de prever o GPA dos alunos com base em variáveis como idade, tempo de estudo, número de faltas, nível de educação dos pais, participação em atividades extracurriculares, entre outras. Com isso, a instituição de ensino poderá identificar alunos com risco de baixo desempenho e tomar medidas preventivas.
+# Problema ne Negócio
+A equipe pedagógica de um colégio enfrenta um desafio preocupante: o desempenho médio dos alunos do ensino médio tem caído nos últimos anos. Muitos estudantes apresentam dificuldades ao longo do período letivo, e, quando as notas finais são divulgadas, já é tarde demais para intervir de maneira eficaz.
+
+Diante dessa situação, os diretores e coordenadores decidiram buscar uma solução baseada em dados. A ideia é desenvolver um modelo de Machine Learning capaz de prever as notas dos alunos antes do fim do período letivo. Com isso, será possível identificar, com antecedência, quais estudantes correm risco de baixo desempenho e atuar de forma preventiva, seja por meio de reforço escolar, aconselhamento ou adaptações no currículo.
+
+Além disso, a análise dos dados permitirá entender quais fatores mais impactam o desempenho acadêmico. Será que a presença em sala de aula tem um peso maior do que o nível de escolaridade dos pais? O envolvimento em atividades extracurriculares influencia positivamente? A resposta para essas perguntas ajudará a escola a direcionar esforços de maneira mais estratégica, promovendo um ensino mais eficaz e personalizado para cada aluno.
 
 # Dados
 O dataset utilizado contém informações sobre 2.392 estudantes do ensino médio, com as seguintes variáveis:
 
-StudentID: Identificador único do aluno.
-Age: Idade do aluno.
-Gender: Gênero do aluno.
-Ethnicity: Etnia do aluno.
-ParentalEducation: Nível de educação dos pais.
-StudyTimeWeekly: Tempo de estudo semanal em horas.
-Absences: Número de faltas ao longo do ano.
-Tutoring: Indica se o aluno teve aulas particulares.
-ParentalSupport: Nível de apoio familiar nos estudos.
-Extracurricular: Participação em atividades extracurriculares.
-Sports: Participação em atividades esportivas.
-Music: Participação em atividades musicais.
-Volunteering: Participação em atividades voluntárias.
-GPA: Nota média do aluno (Grade Point Average).
-GradeClass: Classificação das notas (A, B, C, D, F).
+- StudentID: Identificador único do aluno.
+- Age: Idade do aluno.
+- Gender: Gênero do aluno.
+- Ethnicity: Etnia do aluno.
+- ParentalEducation: Nível de educação dos pais.
+- StudyTimeWeekly: Tempo de estudo semanal em horas.
+- Absences: Número de faltas ao longo do ano.
+- Tutoring: Indica se o aluno teve aulas particulares.
+- ParentalSupport: Nível de apoio familiar nos estudos.
+- Extracurricular: Participação em atividades extracurriculares.
+- Sports: Participação em atividades esportivas.
+- Music: Participação em atividades musicais.
+- Volunteering: Participação em atividades voluntárias.
+- GPA: Nota média do aluno (Grade Point Average).
+- GradeClass: Classificação das notas (A, B, C, D, F).
 
 # Análise Exploratória de Dados (EDA)
 A análise exploratória foi dividida em três partes principais:
@@ -52,10 +56,10 @@ O melhor modelo foi a Regressão Linear, com um R² de 0.95, indicando que 95% d
 
 # Métricas do Modelo
 
-MAE (Mean Absolute Error): 0.16
-MSE (Mean Squared Error): 0.04
-RMSE (Root Mean Squared Error): 0.20
-R²: 0.95
+- MAE (Mean Absolute Error): 0.16
+- MSE (Mean Squared Error): 0.04
+- RMSE (Root Mean Squared Error): 0.20
+- R²: 0.95
 
 # Soluções Propostas
 Com base nas análises, foram propostas as seguintes soluções para melhorar o desempenho acadêmico dos alunos:
